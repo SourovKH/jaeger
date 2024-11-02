@@ -1,0 +1,3 @@
+FROM jaegertracing/all-in-one:1.62.0
+
+ENV COLLECTOR_ZIPKIN_HOST_PORT=:9411
